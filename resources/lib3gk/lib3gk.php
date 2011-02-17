@@ -1,4 +1,6 @@
 <?php
+
+namespace li3_keitai\resources\lib3gk
 /**
  * Ktai library, supports Japanese mobile phone sites coding.
  * It provides many functions such as a carrier check to use Referer or E-mail, 
@@ -8,7 +10,7 @@
  *
  * Ktai Library for CakePHP
  * Copyright 2009-2011, ECWorks.
- 
+ *
  * Licensed under The GNU General Public Licence
  * Redistributions of files must retain the above copyright notice.
  *
@@ -18,11 +20,6 @@
  * @lastmodified	$Date: 2011-02-11 18:00:00 +0900 (Fri, 11 Feb 2011) $
  * @license			http://www.gnu.org/licenses/gpl.html The GNU General Public Licence
  */
-
-/**
- * defines
- */
-require_once(dirname(__FILE__).'/lib3gk_def.php');
 
 
 /**
@@ -40,12 +37,12 @@ class Lib3gk {
 	//General informations
 	//------------------------------------------------
 	/**
-	 * Ktai Libraryのバージョン
+	 * li3_doctrineのバージョン
 	 *
 	 * @var string
 	 * @access protected
 	 */
-	var $_version = '0.4.1';
+	var $_version = '0.0.1';
 	
 	//------------------------------------------------
 	//Library sub classes

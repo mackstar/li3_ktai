@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Ktai library, supports Japanese mobile phone sites coding.
  * It provides many functions such as a carrier check to use Referer or E-mail, 
@@ -8,7 +9,7 @@
  *
  * Ktai Library for CakePHP
  * Copyright 2009-2011, ECWorks.
- 
+ *
  * Licensed under The GNU General Public Licence
  * Redistributions of files must retain the above copyright notice.
  *
@@ -18,6 +19,11 @@
  * @lastmodified	$Date: 2011-02-11 18:00:00 +0900 (Fri, 11 Feb 2011) $
  * @license			http://www.gnu.org/licenses/gpl.html The GNU General Public Licence
  */
+
+if (!Libraries::get('li3_ktai')) {
+	Libraries::add('li3_ktai', array('default' => true));
+}
+
 
 /**
  * defines
@@ -36,4 +42,3 @@ define('KTAI_CARRIER_ANDROID',  8);
 define('KTAI_ENCODING_SJIS', 'SJIS');
 define('KTAI_ENCODING_SJISWIN', 'SJIS-win');
 define('KTAI_ENCODING_UTF8', 'UTF-8');
-

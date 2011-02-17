@@ -19,11 +19,6 @@
  * @license			http://www.gnu.org/licenses/gpl.html The GNU General Public Licence
  */
 
-/**
- * defines
- */
-require_once(dirname(__FILE__).'/lib3gk_def.php');
-
 
 /**
  * Lib3gkEmoji sub class

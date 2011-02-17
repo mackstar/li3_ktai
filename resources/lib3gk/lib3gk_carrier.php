@@ -8,7 +8,7 @@
  *
  * Ktai Library for CakePHP
  * Copyright 2009-2011, ECWorks.
- 
+ * 
  * Licensed under The GNU General Public Licence
  * Redistributions of files must retain the above copyright notice.
  *
@@ -18,11 +18,6 @@
  * @lastmodified	$Date: 2011-02-11 18:00:00 +0900 (Fri, 11 Feb 2011) $
  * @license			http://www.gnu.org/licenses/gpl.html The GNU General Public Licence
  */
-
-/**
- * defines
- */
-require_once(dirname(__FILE__).'/lib3gk_def.php');
 
 /**
  * Lib3gkCarrier sub class

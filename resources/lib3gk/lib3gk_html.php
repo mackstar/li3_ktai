@@ -20,11 +20,6 @@
  */
 
 /**
- * defines
- */
-require_once(dirname(__FILE__).'/lib3gk_def.php');
-
-/**
  * Lib3gkHtml sub class
  *
  * @package       KtaiLibrary
